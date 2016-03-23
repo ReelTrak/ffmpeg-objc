@@ -17,6 +17,17 @@
 		D013263A1CA1956100DA35DE /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D01326391CA1956100DA35DE /* libavformat.a */; };
 		D013263C1CA1971A00DA35DE /* bass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D013263B1CA1971A00DA35DE /* bass.mp3 */; };
 		D013263E1CA19AAF00DA35DE /* REMEMBER.md in Sources */ = {isa = PBXBuildFile; fileRef = D013263D1CA19AAF00DA35DE /* REMEMBER.md */; };
+		D01326401CA19FE600DA35DE /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D013263F1CA19FE600DA35DE /* libbz2.tbd */; };
+		D03F74021CA27F19001BAE91 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03F74011CA27F19001BAE91 /* CoreMedia.framework */; };
+		D03F74041CA27F8E001BAE91 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03F74031CA27F8E001BAE91 /* CoreFoundation.framework */; };
+		D03F74061CA28025001BAE91 /* VideoDecodeAcceleration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03F74051CA28025001BAE91 /* VideoDecodeAcceleration.framework */; };
+		D03F74081CA28084001BAE91 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03F74071CA28084001BAE91 /* VideoToolbox.framework */; };
+		D03F740C1CA28432001BAE91 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D03F740B1CA28432001BAE91 /* libmp3lame.a */; };
+		D03F740E1CA28498001BAE91 /* libvo-aacenc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D03F740D1CA28498001BAE91 /* libvo-aacenc.a */; };
+		D03F74101CA28B4F001BAE91 /* liblzma.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D03F740F1CA28B4F001BAE91 /* liblzma.tbd */; };
+		D03F74121CA28BAE001BAE91 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D03F74111CA28BAE001BAE91 /* libx264.a */; };
+		D03F74141CA28C5D001BAE91 /* libxvidcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D03F74131CA28C5D001BAE91 /* libxvidcore.a */; };
+		D03F74181CA2926B001BAE91 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D03F74171CA2926B001BAE91 /* libswresample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +134,19 @@
 		D01326391CA1956100DA35DE /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
 		D013263B1CA1971A00DA35DE /* bass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bass.mp3; sourceTree = "<group>"; };
 		D013263D1CA19AAF00DA35DE /* REMEMBER.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = REMEMBER.md; sourceTree = "<group>"; };
+		D013263F1CA19FE600DA35DE /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		D03F73FF1CA27EF7001BAE91 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		D03F74011CA27F19001BAE91 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D03F74031CA27F8E001BAE91 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D03F74051CA28025001BAE91 /* VideoDecodeAcceleration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoDecodeAcceleration.framework; path = System/Library/Frameworks/VideoDecodeAcceleration.framework; sourceTree = SDKROOT; };
+		D03F74071CA28084001BAE91 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		D03F74091CA28321001BAE91 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D03F740B1CA28432001BAE91 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		D03F740D1CA28498001BAE91 /* libvo-aacenc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libvo-aacenc.a"; sourceTree = "<group>"; };
+		D03F740F1CA28B4F001BAE91 /* liblzma.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = liblzma.tbd; path = usr/lib/liblzma.tbd; sourceTree = SDKROOT; };
+		D03F74111CA28BAE001BAE91 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
+		D03F74131CA28C5D001BAE91 /* libxvidcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libxvidcore.a; sourceTree = "<group>"; };
+		D03F74171CA2926B001BAE91 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +154,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03F74101CA28B4F001BAE91 /* liblzma.tbd in Frameworks */,
+				D03F74081CA28084001BAE91 /* VideoToolbox.framework in Frameworks */,
+				D03F74061CA28025001BAE91 /* VideoDecodeAcceleration.framework in Frameworks */,
+				D03F74141CA28C5D001BAE91 /* libxvidcore.a in Frameworks */,
+				D03F74041CA27F8E001BAE91 /* CoreFoundation.framework in Frameworks */,
+				D03F74021CA27F19001BAE91 /* CoreMedia.framework in Frameworks */,
+				D01326401CA19FE600DA35DE /* libbz2.tbd in Frameworks */,
+				D03F74121CA28BAE001BAE91 /* libx264.a in Frameworks */,
+				D03F74181CA2926B001BAE91 /* libswresample.a in Frameworks */,
+				D03F740C1CA28432001BAE91 /* libmp3lame.a in Frameworks */,
 				D01326341CA18A4600DA35DE /* libavutil.a in Frameworks */,
+				D03F740E1CA28498001BAE91 /* libvo-aacenc.a in Frameworks */,
 				D01326331CA18A4600DA35DE /* libavfilter.a in Frameworks */,
 				D01326321CA18A4600DA35DE /* libavcodec.a in Frameworks */,
 				D013263A1CA1956100DA35DE /* libavformat.a in Frameworks */,
@@ -143,6 +178,14 @@
 		D01325B61CA1898A00DA35DE = {
 			isa = PBXGroup;
 			children = (
+				D03F740F1CA28B4F001BAE91 /* liblzma.tbd */,
+				D03F74091CA28321001BAE91 /* libz.tbd */,
+				D03F74071CA28084001BAE91 /* VideoToolbox.framework */,
+				D03F74051CA28025001BAE91 /* VideoDecodeAcceleration.framework */,
+				D03F74031CA27F8E001BAE91 /* CoreFoundation.framework */,
+				D03F74011CA27F19001BAE91 /* CoreMedia.framework */,
+				D03F73FF1CA27EF7001BAE91 /* CoreAudio.framework */,
+				D013263F1CA19FE600DA35DE /* libbz2.tbd */,
 				D01325C11CA1898A00DA35DE /* FFMPEGObjC */,
 				D01325C01CA1898A00DA35DE /* Products */,
 			);
@@ -184,6 +227,11 @@
 		D01325D31CA1899800DA35DE /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				D03F74171CA2926B001BAE91 /* libswresample.a */,
+				D03F74131CA28C5D001BAE91 /* libxvidcore.a */,
+				D03F74111CA28BAE001BAE91 /* libx264.a */,
+				D03F740D1CA28498001BAE91 /* libvo-aacenc.a */,
+				D03F740B1CA28432001BAE91 /* libmp3lame.a */,
 				D01326391CA1956100DA35DE /* libavformat.a */,
 				D013262F1CA18A4600DA35DE /* libavcodec.a */,
 				D01326301CA18A4600DA35DE /* libavfilter.a */,
@@ -553,6 +601,7 @@
 				D01325D21CA1898A00DA35DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
